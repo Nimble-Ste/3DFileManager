@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57E2B67E-5588-4FF9-A5A4-4153299A1779}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>3DFileManager</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_3DFileManager</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="Tao.Glut">
+      <Name>Tao.Glut</Name>
+      <HintPath>bin\Debug\Tao.Glut.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl">
+      <Name>Tao.OpenGl</Name>
+      <HintPath>bin\Debug\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows">
+      <Name>Tao.Platform.Windows</Name>
+      <HintPath>bin\Debug\Tao.Platform.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Drive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DriveModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DriveObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrivePositions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileControls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FilePositions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileRename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Files.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileTextureLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FolderControls.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FolderObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FolderPositions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FolderProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolderRename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Folders.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextureLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="AddFolder.resx">
+      <DependentUpon>AddFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileProperties.resx">
+      <DependentUpon>FileProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileRename.resx">
+      <DependentUpon>FileRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderProperties.resx">
+      <DependentUpon>FolderProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolderRename.resx">
+      <DependentUpon>FolderRename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

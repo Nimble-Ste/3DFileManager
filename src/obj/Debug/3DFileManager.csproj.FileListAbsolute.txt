@@ -1,0 +1,14 @@
+C:\Code\3DFileManager\bin\Debug\3DFileManager.exe
+C:\Code\3DFileManager\bin\Debug\3DFileManager.pdb
+C:\Code\3DFileManager\obj\Debug\3DFileManager.csproj.AssemblyReference.cache
+C:\Code\3DFileManager\obj\Debug\_3DFileManager.AddFolder.resources
+C:\Code\3DFileManager\obj\Debug\_3DFileManager.FileProperties.resources
+C:\Code\3DFileManager\obj\Debug\_3DFileManager.FileRename.resources
+C:\Code\3DFileManager\obj\Debug\_3DFileManager.FolderProperties.resources
+C:\Code\3DFileManager\obj\Debug\_3DFileManager.FolderRename.resources
+C:\Code\3DFileManager\obj\Debug\_3DFileManager.FileManager.resources
+C:\Code\3DFileManager\obj\Debug\3DFileManager.csproj.GenerateResource.cache
+C:\Code\3DFileManager\obj\Debug\3DFileManager.csproj.CoreCompileInputs.cache
+C:\Code\3DFileManager\obj\Debug\3DFileManager.csproj.CopyComplete
+C:\Code\3DFileManager\obj\Debug\3DFileManager.exe
+C:\Code\3DFileManager\obj\Debug\3DFileManager.pdb
